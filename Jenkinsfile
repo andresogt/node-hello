@@ -5,11 +5,11 @@ pipeline {
     
   stages {
         
-    stage('Git') {
-      steps {
-        git 'https://github.com/andresogt/node-hello.git'
-      }
-    }
+//    stage('Git') {
+//      steps {
+//        git 'https://github.com/andresogt/node-hello.git'
+//      }
+//    }
      
     stage('Build-1') {
       steps {
